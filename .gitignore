@@ -1,0 +1,42 @@
+node_modules/
+
+dist/
+dist-ssr/
+
+# Environment files (root and all subdirectories)
+.env
+.env.local
+.env.*.local
+*.env
+server/.env
+server/.env.local
+server/.env.*.local
+client/.env
+client/.env.local
+client/.env.*.local
+
+# Keep example files tracked
+!.env.example
+!server/.env.example
+!client/.env.example
+
+
+*.db
+*.db-journal
+
+# File uploads (multer)
+server/uploads/
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.DS_Store
+Thumbs.db
+
+
+.vscode/
+.idea/
